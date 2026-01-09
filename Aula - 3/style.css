@@ -1,0 +1,44 @@
+body{
+    background-color: #f2f2f2;
+    color: #00008B; /* azul escuro */
+    text-align: center; /* centraliza o texto */
+    font-family: Arial; /* Arial ou sans-serif */
+}
+
+p{
+    text-align: justify;    /* justifica o texto */
+    font-size: 16px;    /* tamanho da fonte */
+    line-height: 1.5;   /* espaçamento entre linhas */
+}
+.card {    
+    background-color: #ffffff; /* Define a cor de fundo do card como branco */
+    border-radius: 8px;    /* Arredonda os cantos do card em 8 pixels */
+    /* Adiciona uma sombra sutil ao redor do card:
+       - 0: deslocamento horizontal (não se move para os lados)
+       - 2px: deslocamento vertical (desce 2 pixels)
+       - 4px: desfoque da sombra (quanto maior, mais suave)
+       - rgba(0, 0, 0, 0.1): cor preta com 10% de transparência */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    
+    /* Espaçamento interno: 20 pixels entre o conteúdo e a borda do card */
+    padding: 20px;
+    
+    /* Margem na parte inferior: 15 pixels de espaço após o card */
+    margin-bottom: 15px;
+}   
+#menu {
+  list-style: none;        /* remove os marcadores */
+  padding: 0;              /* tira o recuo padrão do <ul> */
+  margin: 0;             /* tira a margem padrão do <ul> */
+}
+
+#menu li {
+  display: inline-block;   /* coloca os itens lado a lado */
+  margin-right: 15px;      /* espaço de 15px entre eles */
+}
+#menu a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: #dceb0b; /* amarelo */
+}
+#menu a:hover {
+   color: #00008B; /* azul escuro ao passar o mouse */}
