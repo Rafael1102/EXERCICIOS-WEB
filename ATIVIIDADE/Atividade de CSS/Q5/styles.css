@@ -1,0 +1,8 @@
+
+#menu {
+    list-style-type: none; /* remover os marcadores */
+    display: flex; /* alinhar os itens lado a lado */
+    gap: 15px; /* aplicar espaçamento de 15px entre eles */
+    padding: 0; /* remover o padding padrão */
+    margin: 0; /* remover a margem padrão */
+}

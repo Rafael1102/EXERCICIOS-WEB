@@ -1,0 +1,12 @@
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #ff6600;
+    text-decoration: none;
+}
+a:visited {
+    color: #800080;
+    text-decoration: none;
+}

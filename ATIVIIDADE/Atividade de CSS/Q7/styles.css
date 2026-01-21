@@ -1,0 +1,25 @@
+#tabela-dados {
+    border-collapse: collapse;
+    /* Remove espaços entre células para que as bordas fiquem contínuas */
+    border: 2px solid #333;
+    /* Borda externa mais forte para destacar a tabela */
+}
+#tabela-dados th,#tabela-dados td {
+    border: 1px solid #999;
+    /* Borda fina entre células */
+    padding: 8px 12px;
+    /* Espaçamento interno para legibilidade */
+    text-align: left;
+    /* Alinha o texto à esquerda (padrão para tabelas de dados) */
+}
+#tabela-dados thead th {
+    background-color: #1b0b75fb;
+    /* Cor de fundo do cabeçalho para diferenciar das linhas */
+    color: #fff;
+    /* Texto claro para contraste com o fundo escuro */
+}
+
+/* Listrado: aplica um fundo diferente em linhas pares do corpo */
+#tabela-dados tbody tr:nth-child(even) {
+   background-color: #f2f2f2;
+}

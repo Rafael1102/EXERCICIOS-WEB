@@ -1,0 +1,56 @@
+<!--Questão 06. Crie um arquivo tabelas.html com:
+1. Tabela com thead, tbody e tfoot.
+2. 3 colunas: Produto, Quantidade, Valor.
+3. 5 linhas de produtos.
+4. Total no rodapé.-->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Produto 1</td>
+                <td>2</td>
+                <td>R$ 10,00</td>
+            </tr>
+            <tr>
+                <td>Produto 2</td>
+                <td>1</td>
+                <td>R$ 15,00</td>
+            </tr>
+            <tr>
+                <td>Produto 3</td>
+                <td>3</td>
+                <td>R$ 8,00</td>
+            </tr>
+            <tr>
+                <td>Produto 4</td>
+                <td>5</td>
+                <td>R$ 5,00</td>
+            </tr>
+            <tr>        
+                <td>Produto 5</td>
+                <td>4</td>
+                <td>R$ 12,00</td>   
+            </tr>
+    
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="2">Total</td> <!-- colspan para mesclar duas colunas -->
+                <td>R$ 50,00</td>
+            </tr>
+    </table>

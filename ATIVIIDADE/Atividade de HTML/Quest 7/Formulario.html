@@ -1,0 +1,43 @@
+<!--Questão 07. Crie formulário com:
+1. Nome, e-mail, senha.
+2. Data.
+3. Select com 3 opções.
+4. Radio e checkbox.
+5. Botão de envio.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body></body>
+    <form>
+        <p>Nome: <input type="text" name="nome"></p>
+        <p>E-mail: <input type="email" name="email"></p>
+        <p>Senha: <input type="password" name="senha"></p>
+        <p>Data:</p>
+        <input type="date" name="data"><p>Selecione uma opção:</p>
+        <select name="opcao">
+            <option value="opcao1">Opção 1</option>
+            <option value="opcao2">Opção 2</option>
+            <option value="opcao3">Opção 3</option><br>
+        </select>
+        <p>Escolha uma opção:</p><br>
+        <input type="radio" name="radio" id="radio1">
+        <label for="radio1">Opção 1</label><br>
+        <input type="radio" name="radio" id="radio2">
+        <label for="radio2">Opção 2</label><br>
+        <input type="radio" name="radio" id="radio3">
+        <label for="radio3">Opção 3</label>
+        <p>Marque as opções desejadas:</p><br>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <label for="checkbox1">Checkbox 1</label><br>
+        <input type="checkbox" name="checkbox2" id="checkbox2">
+        <label for="checkbox2">Checkbox 2</label><br>
+        <input type="checkbox" name="checkbox3" id="checkbox3">
+        <label for="checkbox3">Checkbox 3</label> <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

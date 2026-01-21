@@ -1,0 +1,15 @@
+.btn {
+    background-color: #007bff; /* Cor de fundo */
+    color: #ffffff;            /* Cor do texto */
+    padding: 12px 24px;        /* Padding */
+    border-radius: 5px;        /* Bordas arredondadas */
+    cursor: pointer;           /* Cursor pointer */
+    border: none;              /* Estética: remove borda padrão */
+    font-size: 16px;
+    transition: background-color 0.3s ease; /* Suaviza a troca de cor */
+}
+
+/* Efeito hover com alteração de cor */
+.btn:hover {
+    background-color: #0056b3;
+}
