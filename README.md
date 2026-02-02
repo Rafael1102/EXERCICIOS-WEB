@@ -4,6 +4,8 @@
 <p>Link da pasta da primeira lista de questão (HTML): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/Atividade%20de%20HTML</link></p>
 <p>Link da pasta da segunda lista de questão (CSS): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/Atividade%20de%20CSS</link></p>
 <p>Link da pasta da terceira lista de questão (HTML&CSS): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/HTML%20E%20CSS</link></p>
+<p>Link da pasta da quarta lista de questão (HTML&CSS extra): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/Atividade%20Extra%20HTML%20e%20CSS</link></p>
+
 ---------------------------------------------------------------in english----------------------------------------------------------------------------------
 <h1># Web Development Exercises - LC 2025 - 6th Semester</h1>
 <h2>Each activity has its own folder containing the respective documents.</h2>
@@ -11,3 +13,4 @@
 <p>Link to the first question set folder (HTML): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/Atividade%20de%20HTML</link> </p>
 <p>Link to the second question set folder (CSS): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/Atividade%20de%20CSS</link></p>
 <p>Link to the third question set folder (HTML & CSS): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/HTML%20E%20CSS</link></p>
+<p>Link to the folder containing the fourth list of questions (extra HTML & CSS): <link>https://github.com/Rafael1102/EXERCICIOS-WEB/tree/main/ATIVIIDADE/Atividade%20Extra%20HTML%20e%20CSS</link></p>
